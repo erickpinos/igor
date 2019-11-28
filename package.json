@@ -4,7 +4,7 @@
   "description": "",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon bot.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,7 @@
   "homepage": "https://github.com/erickpinos/igor#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "nodemon": "^2.0.1",
     "slackbots": "^1.2.0"
-  },
-  "scripts": {
-    "start": "nodemon bot.js"
   }
 }
