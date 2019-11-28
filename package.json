@@ -1,0 +1,26 @@
+{
+  "name": "igor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickpinos/igor.git"
+  },
+  "author": "Erick Pinos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erickpinos/igor/issues"
+  },
+  "homepage": "https://github.com/erickpinos/igor#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "slackbots": "^1.2.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
